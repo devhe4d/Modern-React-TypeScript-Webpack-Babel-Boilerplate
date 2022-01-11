@@ -33,7 +33,8 @@
     "react/no-unused-prop-types": "off",
     "react/require-default-props": "off",
     "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn"
+    "react-hooks/exhaustive-deps": "warn",
+    "no-restricted-exports": "off"
   },
   "settings": {
     "import/resolver": {

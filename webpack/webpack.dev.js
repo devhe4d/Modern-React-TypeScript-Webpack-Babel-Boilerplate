@@ -18,6 +18,7 @@ module.exports = {
             loader: 'css-loader',
             options: { sourceMap: true },
           },
+          'sass-loader',
         ],
         sideEffects: true,
       },

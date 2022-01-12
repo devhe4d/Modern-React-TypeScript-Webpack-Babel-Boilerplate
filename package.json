@@ -3,7 +3,7 @@
   "private": "true",
   "sideEffects": false,
   "scripts": {
-    "build": "webpack --env env=prod",
+    "build": "NODE_ENV=production webpack --env env=prod",
     "dev": "webpack serve --env env=dev",
     "start": "serve -s build",
     "prod": "npm run build && npm run start",
